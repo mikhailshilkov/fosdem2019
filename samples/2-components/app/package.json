@@ -1,0 +1,7 @@
+{
+    "name": "serverless-raw-app",
+    "version": "0.1.0",
+    "dependencies": {
+        "aws-sdk": "^2.392.0"
+    }
+}
