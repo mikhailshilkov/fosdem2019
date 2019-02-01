@@ -7,6 +7,6 @@ let counterTable = new aws.dynamodb.Table("urls", {
         { name: "name", type: "S" },
     ],
     hashKey: "name",
-    readCapacity: 2,
+    readCapacity: 1,
     writeCapacity: 1
 });

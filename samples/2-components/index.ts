@@ -1,6 +1,6 @@
 import * as aws from "@pulumi/aws";
 import { Lambda } from "./lambda";
-import { Endpoint } from "./api";
+import { Endpoint } from "./endpoint";
 
 // A DynamoDB table with a single primary key
 const counterTable = new aws.dynamodb.Table("urls", {

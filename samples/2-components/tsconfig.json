@@ -14,7 +14,7 @@
         "strictNullChecks": true
     },
     "files": [
-        "api.ts",
+        "endpoint.ts",
         "index.ts",
         "lambda.ts"
     ]
